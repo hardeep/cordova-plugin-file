@@ -77,7 +77,7 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="File" >
-                <param name="android-package" value="org.apache.cordova.core.FileUtils"/>
+                <param name="android-package" value="org.apache.cordova.file.FileUtils"/>
             </feature>
         </config-file>
 
@@ -85,12 +85,12 @@
             <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
         </config-file>
 
-        <source-file src="src/android/EncodingException.java" target-dir="src/org/apache/cordova/core" />
-        <source-file src="src/android/FileExistsException.java" target-dir="src/org/apache/cordova/core" />
-        <source-file src="src/android/InvalidModificationException.java" target-dir="src/org/apache/cordova/core" />
-        <source-file src="src/android/NoModificationAllowedException.java" target-dir="src/org/apache/cordova/core" />
-        <source-file src="src/android/TypeMismatchException.java" target-dir="src/org/apache/cordova/core" />
-        <source-file src="src/android/FileUtils.java" target-dir="src/org/apache/cordova/core" />
+        <source-file src="src/android/EncodingException.java" target-dir="src/org/apache/cordova/file" />
+        <source-file src="src/android/FileExistsException.java" target-dir="src/org/apache/cordova/file" />
+        <source-file src="src/android/InvalidModificationException.java" target-dir="src/org/apache/cordova/file" />
+        <source-file src="src/android/NoModificationAllowedException.java" target-dir="src/org/apache/cordova/file" />
+        <source-file src="src/android/TypeMismatchException.java" target-dir="src/org/apache/cordova/file" />
+        <source-file src="src/android/FileUtils.java" target-dir="src/org/apache/cordova/file" />
     </platform>
     
     <!-- ios -->
